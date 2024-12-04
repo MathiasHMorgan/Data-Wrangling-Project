@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+
 # Data Wrangling Project
 
 Welcome to the **Data Wrangling Project** repository! This project focuses on analyzing and cleaning transactional retail data using Python. The main objectives include identifying and resolving dirty, missing, and outlier data across various CSV files, ensuring the dataset is clean and ready for analysis.
