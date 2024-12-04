@@ -30,8 +30,7 @@ The dataset represents transactional retail data from **DigiCO**, a fictional on
    - **Objective**: Impute missing values using appropriate methods.  
    - **Approach**:
      - Apply multiple imputation techniques.
-     - Select the most effective method based on performance.  
-   - **Note**: Only data anomalies are present in this file. The imputation process must be well-documented.  
+   - **Note**: impute missing values where present
 
 ---
 
@@ -72,8 +71,9 @@ The dataset represents transactional retail data from **DigiCO**, a fictional on
 - **Python Libraries**: 
   - Pandas
   - NumPy
-  - Matplotlib/Seaborn for visualization
+  - Matplotlib for visualization
   - Scikit-learn for modeling
+  - Datetime
 - **EDA Methods**:
   - Statistical summaries
   - Visualization techniques for identifying trends and anomalies
@@ -83,7 +83,6 @@ The dataset represents transactional retail data from **DigiCO**, a fictional on
   - Regression-based methods
 - **Outlier Detection**:
   - IQR (Interquartile Range)
-  - Z-scores
   - Visualization-based methods
 
 ---
